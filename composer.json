@@ -1,0 +1,30 @@
+{
+  "name": "sebastianfeldmann/kata.gilded-rose",
+  "description": "The Gilded Rose Kata.",
+  "type": "kata",
+  "keywords": [
+    "kata",
+    "php",
+    "refactoring"
+  ],
+  "homepage": "http://seastian-feldmann.info/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sebastian Feldmann",
+      "email": "sf@sebastian-feldmann.info",
+      "role": "lead"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/sebastianfeldmann/kata.gilded-rose/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "SebastianFeldmann\\Kata\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.2"
+  }
+}
