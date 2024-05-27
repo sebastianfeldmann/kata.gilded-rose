@@ -1,5 +1,2 @@
-composer.lock
-.idea
-.DS_Store
-vendor
-build
+/php/composer.lock
+/php/vendor
