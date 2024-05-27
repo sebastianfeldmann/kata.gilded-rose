@@ -1,0 +1,17 @@
+{
+    "name": "gilded-rose",
+    "version": "1.0.0",
+    "description": "",
+    "main": "",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "^29.5.12",
+        "@types/node": "^20.12.7",
+        "ts-jest": "^29.1.2",
+        "typescript": "^5.4.5"
+    }
+}
