@@ -1,8 +1,10 @@
-<?php
+<?php declare(strict_types=1);
 
-namespace SebastianFeldmann\Kata\GildedRose;
+namespace GildedRose;
 
-class GildedRoseTest extends \PHPUnit\Framework\TestCase
+use PHPUnit\Framework\TestCase;
+
+class GildedRoseTest extends TestCase
 {
     public function testNormalBeforeSellDate()
     {

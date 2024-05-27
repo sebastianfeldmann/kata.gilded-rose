@@ -2,12 +2,8 @@
   "name": "sebastianfeldmann/kata.gilded-rose",
   "description": "The Gilded Rose Kata",
   "type": "kata",
-  "keywords": [
-    "kata",
-    "php",
-    "refactoring"
-  ],
-  "homepage": "http://seastian-feldmann.info/",
+  "keywords": ["kata", "php", "refactoring"],
+  "homepage": "https://sebastian-feldmann.info/",
   "license": "MIT",
   "authors": [
     {
@@ -21,10 +17,11 @@
   },
   "autoload": {
     "psr-4": {
-      "SebastianFeldmann\\Kata\\GildedRose\\": "src/"
+      "GildedRose\\": "src/"
     }
   },
   "require": {
-    "php": ">=7.1"
+    "php": ">=8.0",
+    "phpunit/phpunit":  "^8.0"
   }
 }

@@ -1,37 +1,15 @@
-<?php
+<?php declare(strict_types=1);
 
-namespace SebastianFeldmann\Kata\GildedRose;
+namespace GildedRose;
 
 class GildedRose
 {
-    /**
-     * Type of current rose.
-     *
-     * @var string
-     */
-    private $name;
+    private string $name;
 
-    /**
-     * Current quality.
-     *
-     * @var int
-     */
-    private $quality;
+    private int $quality;
 
-    /**
-     * Remaining days till sell date.
-     *
-     * @var int
-     */
-    private $sellIn;
+    private int $sellIn;
 
-    /**
-     * GildedRose constructor.
-     *
-     * @param string $name
-     * @param int    $quality
-     * @param int    $sellIn
-     */
     public function __construct(string $name, int $quality, int $sellIn)
     {
         $this->name    = $name;
@@ -39,29 +17,16 @@ class GildedRose
         $this->sellIn  = $sellIn;
     }
 
-    /**
-     * Return current quality.
-     *
-     * @return int
-     */
     public function getQuality() : int
     {
         return $this->quality;
     }
 
-    /**
-     * Return days remaining till sell date.
-     *
-     * @return int
-     */
     public function getDaysRemaining() : int
     {
         return $this->sellIn;
     }
 
-    /**
-     * Executes a day tick.
-     */
     public function tick() : void
     {
         if ($this->name != 'Aged Brie' && $this->name != 'Backstage passes to a TAFKAL80ETC concert') {
